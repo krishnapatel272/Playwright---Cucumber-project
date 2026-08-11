@@ -1,4 +1,4 @@
-This is a lightweight automation project built with Playwright, Cucumber and Javascript. Tests are written using Gherkin language with Cucumber.
+This is a lightweight automation project built with Playwright, Cucumber and Javascript. Tests are written using Gherkin language with Cucumber. I used GitHub Copilot to troubleshoot code and analyse failures.
 
 <br>
 
@@ -20,6 +20,6 @@ Project structure:
 
 <br>
 How to run tests:
-npx test
+npm test
 
 
