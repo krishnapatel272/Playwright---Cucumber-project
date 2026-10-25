@@ -7,7 +7,6 @@ Given("The user has added an item to cart.", async function () {
 
 Given("The user navigates to the shopping cart page.", async function () {
     await this.page.locator(".shopping_cart_link").click();
-    await this.page.locator(".title").isVisible();
 });
 
 

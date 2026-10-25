@@ -2,7 +2,7 @@ const { Given, When, Then } = require("@cucumber/cucumber");
 
 Given("The user navigates to checkout.", async function () {
   await this.page.locator("#checkout").click(); 
-  await this.page.locator(".title").isVisible();
+  await this.page.locator(".checkout_info_wrapper").isVisible();
 });
 
 Given("The user fills in their details.", async function () {

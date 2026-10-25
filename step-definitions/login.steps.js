@@ -12,5 +12,5 @@ When("The user enters valid details and clicks submit.", async function () {
 });
 
 Then("The user should see the products page.", async function () {
-    await this.page.locator(".title").isVisible();
+    await this.page.locator(".shopping_cart_link").isVisible();
 });

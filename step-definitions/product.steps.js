@@ -8,9 +8,8 @@ Given("The user is signed into their account.", async function () {
     await this.page.locator('#login-button').click();
 });
 
-
 Given("The user is on the products page.", async function () {
-    await this.page.locator(".title").isVisible();
+    await this.page.locator(".shopping_cart_link").isVisible();
 });
 
 When("The user adds an item to cart.", async function () {
